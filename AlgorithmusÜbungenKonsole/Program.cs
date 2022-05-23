@@ -22,6 +22,11 @@ namespace CalculateFacultyAlgorithm
                     string numberString = Console.ReadLine();
                     int numberInt = Convert.ToInt32(numberString);
 
+                    if (numberInt < 0) // faculty not defined for negative numbers
+                    {
+                        throw new System.FormatException();
+                    }
+
                     int facultyLoop = numberInt;
                     result = numberInt;
 
