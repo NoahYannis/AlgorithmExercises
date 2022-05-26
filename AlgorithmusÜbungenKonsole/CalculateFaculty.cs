@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculateFacultyAlgorithm
 {
-    internal class Program
+    internal class CalculateFaculty
     {
 
         static void Main(string[] args)

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE3902E2-BCC5-48C2-9763-CEACEDF896B1}</ProjectGuid>
+    <ProjectGuid>{49BC09C0-40A4-44B1-9784-E482BAC1E8B6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmusÜbungenKonsole</RootNamespace>
-    <AssemblyName>AlgorithmusÜbungenKonsole</AssemblyName>
+    <RootNamespace>Algorithm2</RootNamespace>
+    <AssemblyName>Algorithm2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ReturnDifference.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
